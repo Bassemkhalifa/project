@@ -1,0 +1,125 @@
+nav li , .navbar-brand{
+    position: relative;
+    top: -4px;
+}
+form{
+    position: relative;
+    top: 5px;
+}
+.container-fluid h4,.container-fluid p,.container-fluid button{
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: bold;
+}
+#h1{
+    font-family: "New Amsterdam", sans-serif;
+    padding-top: 60px;
+    font-size: 40px;
+}
+#h2,h3,p{
+    font-family: "New Amsterdam", sans-serif;
+}
+#p1{
+    font-weight: lighter;
+    font-family: "New Amsterdam", sans-serif;
+    padding: 30px 0px 0px 20px;
+}
+#overlay{
+height: 300px;
+background: url("../pictures/OIP\ \(9\).jpeg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#overlay2{
+    height: 300px;
+    background: url("../pictures/d41586-022-04383-z_23802778.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#h3{
+    font-size: 35px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: bolder;
+    background-image: -webkit-linear-gradient(purple,blue);
+    -webkit-background-clip:text;
+    color: transparent;
+    
+}
+#l1::after{
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    position:absolute;
+    z-index: 2;
+}
+#l1:hover::after{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 188, 233, 0.3);
+    transition: 0.5s;
+}
+#l1::before{
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    position:absolute;
+    z-index: 2;
+}
+#l1:hover::before{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 188, 233, 0.3);
+    transition: 0.5s;
+}
+#cards::after{
+    content: "";
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    position:absolute;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.3);
+}
+#cards:hover::after{
+    background-color: rgba(6, 86, 106, 0.7);
+}
+#cards:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+#cards:hover #card{
+    background-color:#0077b6;
+    opacity: 0.7;
+}
+#new-1{
+    margin-left:64.1%;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 34% 100%);
+    background: url("../pictures/How-to-become-a-frontend-developer.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#new-2{
+    margin-left:-1%;
+    clip-path: polygon(0 0, 75% 0, 66% 100%, 0% 100%);
+    background: url("../pictures/website-development-service-techup-technologies.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#new-3{
+    margin-left:64.1%;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 34% 100%);
+    background: url("../pictures/0e9ce364-75b0-4079-adfc-9eef08e871cc_teams_it.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
